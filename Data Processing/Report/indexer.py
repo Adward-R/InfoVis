@@ -14,7 +14,7 @@ stopwords = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n
 
 def read():
 	print '###############start###########################################################'
-	n= 0
+	n=-1 
 	index= []
 	path= sys.path[0]#.replace(':\\',':')
 	#sum=open(path+ "/sum.txt","w")
@@ -22,7 +22,7 @@ def read():
 		#open file ,if fail write back?
 		n= n+1
 		try:
-			f= open(path+ "/docs/%d"%n,"r") 
+			f= open(path+ "/../../MC1 Data/MC1 Data/articles/%d.txt"%n,"r")
 		except IOError:
 			break
 		print "analyzing the NO.%d doc"%n
@@ -107,13 +107,13 @@ def read():
 	#print the index in the result file
 	i= 0
 	
-	if not os.path.exists('index'):
-		os.mkdir('index')
+	if not os.path.exists('wordIndex'):
+		os.mkdir('wordIndex')
 	while 1:
 		try:
 			#read index such as ['a',[[1,2],[1,3]],.........
 			word= index[i]
-			newdoc= path + '/index/' + word
+			newdoc= path + '/wordIndex/' + word
 			print 'writing the index of '+ word
 			f= open(newdoc,'w')
 			post= index[i+1]  #post is [[1,2],[1,3],......
