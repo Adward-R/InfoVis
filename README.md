@@ -18,7 +18,7 @@ Infomation Visualization 14-15 Winter
   	- 
   	
   	
-  - ###Emails：
+ - ###Emails：
   
   
 ##可用工具（及Examples）：
@@ -27,7 +27,10 @@ Infomation Visualization 14-15 Winter
 
 	`http://www.jasondavies.com/wordcloud/#%2F%2Fwww.jasondavies.com%2Fwordtree%2Fcat-in-the-hat.txt`
 	
- - 
+	
+ - Bubble My Page (类似于词云): 
+ 
+ 	`http://www.infocaptor.com/bubble-my-page`
  
  
  

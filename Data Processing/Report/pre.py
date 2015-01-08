@@ -1,3 +1,4 @@
+
 #get sorted paper offices and the number of articles they have issued
 def paperStat():
     title = {}
@@ -21,13 +22,17 @@ def paperStat():
     fileWriter.close();
 
 #get time relevant reports that may correspond to the vanishing incident
-def relevantArticleNum():
+def getArticleTime():
     num = []
-    fileWriter = open('relevantArticleNum.txt','w')
+    fileWriter = open('articleTime.csv','w')
     path = "../../MC1 Data/MC1 Data/articles/"
     for i in range(0,845):
         fileReader = open(path+str(i)+'.txt','r')
-        cnt = 0;
+        org = ""
+        for line in fileReader:
+            org = line.strip('\n')
+            break
+        cnt = 0
         for line in fileReader:
             if (cnt==0):
                 cnt+=1
@@ -35,9 +40,9 @@ def relevantArticleNum():
             else:
                 if (line.strip('\n').strip('\r').strip(' ')==''):
                     continue
-                elif (cnt>=2):
+                elif (cnt>=1):
                     if (line[0].isdigit()):
-                        num.append(line.strip('\n').strip('\r'))
+                        num.append([line.strip('\n').strip('\r'),i,org])
                         break
                     else:
                         continue
@@ -46,12 +51,13 @@ def relevantArticleNum():
         fileReader.close()
 
     time = []
-    for item in num:
-        if (len(item.split('/'))==3):
-            if (int(item.split('/')[0])>=2014):
-                time.append(item.split('/'))
+    for item in num: #raw time data, doc num
+        if (len(item[0].split('/'))==3):
+            #filtering
+            #if (int(item[0].split('/')[0])>=2014):
+                time.append([item[0].split('/'),item[1],item[2]])
         else:
-            tmp = item.split(' ')
+            tmp = item[0].split(' ')
             if (len(tmp)>=4):
                 tmp = tmp[0:3]
             if (len(tmp)<=2):
@@ -83,18 +89,52 @@ def relevantArticleNum():
                 tmp[1] = "12"
             else:
                 tmp[1] = "00"
-            if (tmp[0]>=2014):
-                time.append(tmp)
-            
-    row = 0
+            try:
+                if (int(tmp[2])<10):
+                    tmp[2] = '0'+str(int(tmp[2]))
+            except ValueError:
+                print tmp
+            #filter articles that may be relevant in time 
+            try:
+                #if (int(tmp[0])>=2014):
+                    time.append([tmp,item[1],item[2]])
+            except ValueError:
+                print tmp
+    
+    fileWriter.write('num,time,paper\n')
     for item in time:
-        fileWriter.write(str(row)+': '+item[0]+' '+item[1]+' '+item[-1]+'\n')
-        row += 1
+        fileWriter.write(str(item[1])+','+item[0][0]+item[0][1]+item[0][-1]+','+item[2]+'\n')
     fileWriter.close();
 
+def makeWordFreCsv():
+    timeReader = open('articleTime.csv','r')
+    freReader = open('./wordIndex/pok','r')
+    csvLines = []
+    timeLines = []
+    for line in timeReader:
+        if (line=='' or line=='\n'):
+            pass
+        else:
+            timeLines.append(line.strip('\n').split(':')[1])
+
+    for line in freReader:
+        if (line=='' or line=='\n'):
+            pass
+        else:
+            tmp1 = line.split(':')
+            tmp2 = [int(tmp1[0]),int(tmp1[1])]
+            csvLines.append([timeLines[tmp2[0]],'0',str(tmp2[1]),'ha','la'])
+    timeReader.close()
+    freReader.close()
+    csvWriter = open('wordFre.csv','w')
+    csvWriter.write("date,delay,distance,origin,destination\n")
+    for line in csvLines:
+        csvWriter.write(line[0]+','+line[1]+','+line[2]+','+line[3]+','+line[4]+'\n')
+    csvWriter.close()
+
 def main():
-    paperStat()
-    relevantArticleNum()
+    getArticleTime()
+    #makeWordFreCsv()
     
 if __name__=="__main__":
     main()

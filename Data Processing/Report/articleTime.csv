@@ -1,0 +1,845 @@
+num,time,paper
+0,20120908,The Orb
+1,20131218,The Light of Truth
+2,19991116,Everyday News
+3,19940218,The Tulip
+4,19980426,News Online Today
+5,19981110,Worldwise
+6,20070320,World Journal
+7,20140120,News Online Today
+8,20140120,Modern Rubicon
+9,20140120,Kronos Star
+10,20140120,Homeland Illumination
+11,20140120,Tethys News
+12,20070319,News Online Today 
+13,20140120,Centrum Sentinel
+14,20090621,News Online Today
+15,20140120,Centrum Sentinel
+16,19980516,News Online Today
+17,20050406,The Wrap
+18,20120620,Homeland Illumination
+19,20090313,News Desk
+20,20090621,The Truth
+21,20140120,Modern Rubicon
+22,20010902,Daily Pegasus
+23,20090222,The General Post
+24,20090622,International Times
+25,20131216,News Online Today
+26,20140120,Tethys News
+27,19980119,News Online Today
+28,20110620,Kronos Star
+29,20140120,International News
+30,20140121,Modern Rubicon
+31,20140120,Kronos Star
+32,20140120,Tethys News
+33,20120907,Homeland Illumination
+34,20100614,Central Bulletin
+35,19980515,Homeland Illumination
+36,20090223,The Continent
+37,20111123,Central Bulletin
+38,19980118,Kronos Star
+39,20140120,Kronos Star
+40,20140119,News Online Today
+41,20010318,The Truth
+42,19960313,Kronos Star
+43,20140120,Modern Rubicon
+44,20140120,Tethys News
+45,20110728,News Online Today
+46,20130903,News Online Today
+47,19930313,The Guide
+48,20070411,Athena Speaks
+49,20140120,The World
+50,20140120,The Abila Post
+51,20090309,Daily Pegasus
+52,19951011,News Online Today
+53,20140120,The Abila Post
+54,20120822,The Abila Post
+55,20140326,Daily Pegasus
+56,20140120,Centrum Sentinel
+57,20120621,News Online Today 
+58,19960314,Worldwise
+59,20030518,Who What News
+60,19970425,News Desk
+61,20131218,News Desk
+62,20140121,The Guide
+63,20140120,News Online Today
+64,20110729,Athena Speaks
+65,20090516,News Online Today
+66,19951012,The Guide
+67,20140120,Modern Rubicon
+68,19981115,News Online Today
+69,19980319,Homeland Illumination
+70,20140120,Kronos Star
+71,20100621,News Online Today
+72,20000601,Daily Pegasus
+73,20090619,Homeland Illumination
+74,20120824,Athena Speaks
+75,20120622,International News
+76,20140120,Tethys News
+77,20110621,All News Today
+78,20140120,Tethys News
+79,19980515,News Online Today
+80,20120222,Everyday News
+81,20130209,World Journal
+82,20130630,News Online Today
+83,20131216,The Abila Post
+84,19940923,The World
+85,20140120,Kronos Star
+86,20131216,News Online Today
+87,20140120,Homeland Illumination
+88,20131113,The Continent
+89,20120620,International News
+90,20140120,Tethys News
+91,20000818,News Desk
+92,20140120,Tethys News
+93,20130209,Everyday News
+94,20140120,Homeland Illumination
+95,20090620,News Online Today
+96,20110728,The Truth
+97,19950401,The General Post
+98,19951122,News Online Today
+99,20140120,Modern Rubicon
+100,20070319,The Continent
+101,20121111,Daily Pegasus
+102,20130904,The Light of Truth
+103,19930119,News Online Today
+104,20120310,News Desk
+105,19940924,Who What News
+106,20140121,Modern Rubicon
+107,20140120,The General Post
+108,20121112,News Online Today
+109,20020526,The Orb
+110,20140121,Homeland Illumination
+111,19950330,The World
+112,19960315,The Truth
+113,20050925,Central Bulletin
+114,19930314,Worldwise
+115,20020527,Daily Pegasus
+116,20120621,The Wrap
+117,19991115,News Online Today
+118,20140120,Centrum Sentinel
+119,20130903,The Tulip
+120,19960708,News Online Today
+121,20050406,All News Today
+122,20140120,Tethys News
+123,20110728,Central Bulletin
+124,20130208,News Online Today 
+125,20140120,Central Bulletin
+126,20131113,World Journal
+127,20140119,The Explainer
+128,20140119,Homeland Illumination
+129,20010831,International News
+130,20130620,Kronos Star
+131,20000117,The General Post
+132,20120620,World Source 
+133,20140120,Modern Rubicon
+134,20010322,Homeland Illumination
+135,20120409,All News Today
+136,19970423,Central Bulletin
+137,19940218,Who What News
+138,20140120,Athena Speaks
+139,20140120,The Abila Post
+140,20140120,Athena Speaks
+141,20090221,Athena Speaks
+142,20140121,Centrum Sentinel
+143,19930921,Worldwise
+144,20140120,Homeland Illumination
+145,20140120,The Guide
+146,20090221,News Desk
+147,20130224,Everyday News
+148,20140119,The Orb
+149,20090623,World Journal
+150,20130222,International Times
+151,19971016,Central Bulletin
+152,19930202,All News Today
+153,19950330,Who What News
+154,19980320,All News Today
+155,20090622,News Online Today 
+156,20120623,The Truth
+157,20090313,Daily Pegasus
+158,20100621,The Wrap
+159,20140121,Modern Rubicon
+160,20140119,Athena Speaks
+161,20110620,Homeland Illumination
+162,20090621,The Guide
+163,20140120,Kronos Star
+164,20030519,The Light of Truth
+165,20090219,The Truth
+166,19981110,The Truth
+167,20140121,International Times
+168,20090218,Kronos Star
+169,20140120,The Abila Post
+170,20140120,Central Bulletin
+171,20140120,Modern Rubicon
+172,20140120,Homeland Illumination
+173,20140120,Tethys News
+174,20140119,Kronos Star
+175,20110621,Daily Pegasus
+176,20140120,Modern Rubicon
+177,20000818,The Explainer
+178,20140121,The Tulip
+179,20050406,News Online Today
+180,20100305,World Journal
+181,20131215,Kronos Star
+182,20070321,Daily Pegasus
+183,19980426,The Wrap
+184,20120822,News Online Today
+185,20090620,The Abila Post
+186,19971015,News Online Today
+187,20010324,The Wrap
+188,20000601,News Online Today
+189,20130622,The Guide
+190,20100615,News Desk
+191,20090621,Athena Speaks
+192,19940925,The General Post
+193,20140120,Tethys News
+194,20120623,The Guide
+195,20090515,The World
+196,19980119,Worldwise
+197,20140120,The Explainer
+198,19940218,The Light of Truth
+199,20140120,Centrum Sentinel
+200,March0004,Everyday News
+201,20090223,Everyday News
+202,20140120,Athena Speaks
+203,20140120,Centrum Sentinel
+204,20090621,News Online Today
+205,20111123,The Explainer
+206,19981114,The Tulip
+207,20120411,The Wrap
+208,20140120,Centrum Sentinel
+209,20131217,News Online Today
+210,19930203,The Orb
+211,19981116,The Orb
+212,20140120,The Abila Post
+213,20120823,Central Bulletin
+214,19821003,Everyday News
+215,20140120,Homeland Illumination
+216,20000116,The Light of Truth
+217,20090309,The Wrap
+218,20140121,The Abila Post
+219,20140121,News Online Today
+220,19971017,Athena Speaks
+221,20050405,Homeland Illumination
+222,19980517,The Orb
+223,20131218,The General Post
+224,20110728,The Guide
+225,20110620,Homeland Illumination
+226,19930119,International News
+227,19840504,News Online Today 
+228,20120308,Worldwise
+229,20090313,The Guide
+230,19951123,The Truth
+231,20131217,Athena Speaks
+232,20140120,Centrum Sentinel
+233,20101002,The Abila Post
+234,20140326,
+235,20000816,The General Post
+236,20070322,The Wrap
+237,19980515,All News Today
+238,20120220,International Times
+239,20120410,The Orb
+240,20140119,The Truth
+241,20070412,News Desk
+242,20100305,The Continent
+243,20040530,The Wrap
+244,20101003,Central Bulletin
+245,20140121,The Continent
+246,20010317,Kronos Star
+247,20050406,News Online Today
+248,19990709,The Orb
+249,20110622,The Orb
+250,20140121,The Abila Post
+251,20040529,All News Today
+252,20130620,News Online Today
+253,20140120,Tethys News
+254,20000531,Homeland Illumination
+255,20111123,Athena Speaks
+256,20000817,News Online Today
+257,20100621,Daily Pegasus
+258,20120309,The Explainer
+259,20140119,News Desk
+260,20131217,The Explainer
+261,20140121,The Abila Post
+262,20140120,Modern Rubicon
+263,19980820,News Online Today
+264,19980517,Daily Pegasus
+265,20120308,The Abila Post
+266,20120205,News Online Today
+267,19990708,News Online Today
+268,20090623,The Continent
+269,20090621,Daily Pegasus
+270,20001004,Athena Speaks
+271,20000602,The Wrap
+272,20040531,Daily Pegasus
+273,20010830,Kronos Star
+274,20140121,Worldwise
+275,19980820,The Orb
+276,20140121,International News
+277,20000816,The Light of Truth
+278,20000115,The World
+279,20140326,
+280,20140120,Centrum Sentinel
+281,20140120,Kronos Star
+282,20120620,International Times
+283,20140120,Homeland Illumination
+284,19990220,The General Post
+285,20050925,News Online Today
+286,20100619,News Online Today
+287,20131021,
+288,20110621,News Online Today
+289,20140120,Kronos Star
+290,20130620,Homeland Illumination
+291,20140120,News Online Today
+292,20140120,The Abila Post
+293,19980819,Homeland Illumination
+294,20090312,Homeland Illumination
+295,20000818,Athena Speaks
+296,20010318,The Guide
+297,20020525,Homeland Illumination
+298,20140120,Kronos Star
+299,20140120,Centrum Sentinel
+300,20120824,The Explainer
+301,19921212,The Light of Truth
+302,19991116,The Continent
+303,20130222,News Online Today 
+304,19971015,The Abila Post
+305,19981113,The World
+306,20010614,Kronos Star
+307,20140120,Modern Rubicon
+308,20140120,Centrum Sentinel
+309,20090621,Worldwise
+310,20140121,Who What News
+311,20001003,News Desk
+312,19951122,Worldwise
+313,20140120,Homeland Illumination
+314,19950330,News Online Today
+315,19930921,The Tulip
+316,19981114,The General Post
+317,19980321,Daily Pegasus
+318,20120621,The Continent
+319,19990220,The Tulip
+320,20140120,Centrum Sentinel
+321,20140120,Kronos Star
+322,20140120,The Abila Post
+323,20111123,News Online Today
+324,20140120,The Explainer
+325,20140120,Centrum Sentinel
+326,20140120,The Abila Post
+327,19990704,The Guide
+328,20010901,The Guide
+329,20140120,Kronos Star
+330,19981110,The Guide
+331,19940925,The Tulip
+332,20070319,Everyday News
+333,20131216,International News
+334,20100614,The Explainer
+335,20090219,News Online Today
+336,20130904,The General Post
+337,20120622,News Online Today
+338,20140120,The Abila Post
+339,20140120,Kronos Star
+340,20090220,The Explainer
+341,20130621,All News Today
+342,19980320,News Online Today
+343,20120621,Everyday News
+344,20140121,News Online Today
+345,20101218,The General Post
+346,20120908,News Online Today
+347,19821004,International Times 
+348,20140120,Homeland Illumination
+349,20020527,The Wrap
+350,20140120,Homeland Illumination
+351,20120621,World Journal
+352,20140119,News Online Today
+353,20090622,World Source 
+354,20090314,Athena Speaks
+355,20140120,Modern Rubicon
+356,20140120,The Abila Post
+357,20090621,The Orb
+358,20120409,Homeland Illumination
+359,20140120,Kronos Star
+360,20131217,The Tulip
+361,20110622,The Truth
+362,20140120,Modern Rubicon
+363,20010616,The Guide
+364,20120620,Kronos Star
+365,20140120,Modern Rubicon
+366,20140120,Homeland Illumination
+367,19930313,News Online Today
+368,20140120,Kronos Star
+369,20140120,The Abila Post
+370,20101219,The Tulip
+371,20030517,News Online Today
+372,20140121,The Guide
+373,20120309,The Guide
+374,20130620,International News
+375,20131217,Who What News
+376,20140120,Kronos Star
+377,20070411,The Explainer
+378,20100614,News Online Today
+379,20120307,Kronos Star
+380,19921212,News Online Today
+381,20140120,Kronos Star
+382,20101004,The Explainer
+383,20050926,Athena Speaks
+384,20140120,Modern Rubicon
+385,20090622,The Explainer
+386,20140120,Centrum Sentinel
+387,20090623,Everyday News
+388,20131216,The Guide
+389,20110515,News Online Today
+390,20070322,The Orb
+391,20010322,All News Today
+392,20140120,Tethys News
+393,20130222,World Source 
+394,20130621,The Truth
+395,20140120,Tethys News
+396,20140121,World Journal
+397,20140120,The Explainer
+398,20090312,The Abila Post
+399,19981114,Homeland Illumination
+400,20140120,Tethys News
+401,19981116,Central Bulletin
+402,20140120,News Desk 
+403,20001002,Central Bulletin
+404,19971017,News Desk
+405,20100615,Athena Speaks
+406,19980119,The Truth
+407,20140121,Homeland Illumination
+408,19981115,The Wrap
+409,19980821,The Wrap
+410,20001002,News Online Today
+411,20140120,Kronos Star
+412,20140120,Modern Rubicon
+413,20000815,News Online Today
+414,20120410,News Online Today
+415,20140120,Homeland Illumination
+416,20110621,News Online Today
+417,20140120,Modern Rubicon
+418,20140121,Centrum Sentinel
+419,20140120,Tethys News
+420,19981115,All News Today
+421,19951121,Kronos Star
+422,20090516,Who What News
+423,20050406,International News
+424,19951123,The Guide
+425,20140120,Modern Rubicon
+426,20140120,Homeland Illumination
+427,20140120,Homeland Illumination
+428,20140120,The Abila Post
+429,20140120,The Abila Post
+430,20140120,Tethys News
+431,20140120,News Online Today
+432,20101218,The Light of Truth
+433,20110515,Athena Speaks
+434,20140120,Centrum Sentinel
+435,20140120,Kronos Star
+436,20140119,International News
+437,20090312,Homeland Illumination
+438,20140120,The Abila Post
+439,20050924,The Abila Post
+440,20140120,News Online Today
+441,20140120,Kronos Star
+442,19981117,The Explainer
+443,19991114,International Times
+444,19951011,International News
+445,20090620,The Wrap
+446,20131113,News Online Today 
+447,20090308,News Online Today
+448,19980321,The Wrap
+449,19990219,Who What News
+450,20140120,The Abila Post
+451,20090312,News Online Today
+452,20140120,Modern Rubicon
+453,20140120,Tethys News
+454,20090621,News Online Today
+455,20090314,The Orb
+456,19951011,The Light of Truth
+457,20120221,The Continent
+458,20140120,The Abila Post
+459,20010324,The Orb
+460,20140121,Everyday News
+461,20140120,Kronos Star
+462,20140120,Kronos Star
+463,20140121,The Truth
+464,20050925,News Desk
+465,20010323,Daily Pegasus
+466,20140120,Athena Speaks
+467,19981110,News Online Today
+468,19990707,Homeland Illumination
+469,20140120,Who What News
+470,20140120,Homeland Illumination
+471,20000116,Who What News
+472,19960707,The World
+473,19921212,Who What News
+474,19951012,The Truth
+475,20100620,The Abila Post
+476,20090219,News Online Today
+477,20001002,The Abila Post
+478,19940218,The General Post
+479,19921212,The Tulip
+480,20131216,The Truth
+481,20140121,Kronos Star
+482,19990708,Daily Pegasus
+483,20070321,News Online Today
+484,20140120,Homeland Illumination
+485,20140120,Centrum Sentinel
+486,20140120,Centrum Sentinel
+487,20140120,Modern Rubicon
+488,19990703,Kronos Star
+489,20101003,News Online Today
+490,20140120,Centrum Sentinel
+491,20050926,The Explainer
+492,19980517,The Wrap
+493,20030519,The General Post
+494,20140120,The Light of Truth
+495,20140120,Kronos Star
+496,19840505,Everyday News
+497,19951010,The World
+498,20000815,The World
+499,20110728,International News
+500,19930204,The Wrap
+501,19821004,World Journal
+502,19980425,Homeland Illumination
+503,19930921,The Light of Truth
+504,20000816,The Tulip
+505,20090313,News Online Today
+506,20131112,International Times
+507,20140120,Tethys News
+508,20100620,Kronos Star
+509,19960315,The Guide
+510,20140120,Tethys News
+511,20010901,News Online Today
+512,20140120,News Desk
+513,20131022,
+514,20090222,International Times
+515,20000116,The Tulip
+516,20140120,Athena Speaks
+517,19990218,The World
+518,20140120,Kronos Star
+519,19981117,Athena Speaks
+520,20120908,The Wrap
+521,20140120,Centrum Sentinel
+522,20140120,Homeland Illumination
+523,20100621,The Orb
+524,20140120,Kronos Star
+525,20140120,News Desk
+526,19951010,Kronos Star
+527,20110728,The Explainer
+528,20140120,The Abila Post
+529,20090222,The Tulip
+530,20130208,The Continent
+531,19980320,The Orb
+532,20140120,Tethys News
+533,20140120,Tethys News
+534,19940924,News Online Today
+535,20140326,
+536,20140121,The General Post
+537,20140120,Homeland Illumination
+538,20130622,Worldwise
+539,20140120,Tethys News
+540,20140120,Kronos Star
+541,20120621,Kronos Star
+542,19960314,News Online Today
+543,19951012,The General Post
+544,20010831,News Online Today
+545,19970424,News Online Today
+546,20040531,The Orb
+547,19951121,International News
+548,20110727,Kronos Star
+549,20120309,News Online Today
+550,20070318,International Times
+551,20140120,Centrum Sentinel
+552,19930920,The Truth
+553,20131216,Worldwise
+554,20090620,All News Today
+555,20140120,The Abila Post
+556,20140121,Homeland Illumination
+557,20140120,The Abila Post
+558,20140120,Tethys News
+559,20131216,The World
+560,20090517,The Light of Truth
+561,20090314,The Truth
+562,20140120,Centrum Sentinel
+563,20140120,Homeland Illumination
+564,19840503,World Source 
+565,20090219,Central Bulletin
+566,20090812,News Online Today
+567,20140120,Homeland Illumination
+568,19980517,Daily Pegasus
+569,20140120,Kronos Star
+570,20120620,News Online Today
+571,20110515,News Desk
+572,20120622,Daily Pegasus
+573,20140120,The Abila Post
+574,19981114,News Online Today
+575,20130622,The Orb
+576,20110514,The Abila Post
+577,20090313,News Online Today
+578,20070411,Central Bulletin
+579,20140121,Homeland Illumination
+580,20130224,The Continent
+581,20100622,The Truth
+582,20140120,Kronos Star
+583,20140121,Homeland Illumination
+584,20120308,The Truth
+585,20140120,Tethys News
+586,19950401,The Tulip
+587,20030517,The World
+588,20101003,News Desk
+589,20140119,Worldwise
+590,20131022,News Online Today 
+591,19951011,Worldwise
+592,20140120,Homeland Illumination
+593,20010901,Worldwise
+594,20140120,Worldwise
+595,20050408,The Guide
+596,19821003,News Online Today 
+597,20140120,Centrum Sentinel
+598,20140121,News Online Today 
+599,20140121,The Truth
+600,20140120,Tethys News
+601,20101004,Athena Speaks
+602,20140119,Daily Pegasus
+603,20070321,All News Today
+604,20100621,Central Bulletin
+605,19981117,News Desk
+606,20010322,News Online Today
+607,20140120,The Truth
+608,20131113,Everyday News
+609,20140120,Homeland Illumination
+610,20120310,Athena Speaks
+611,19921211,The World
+612,19990708,All News Today
+613,20140120,Tethys News
+614,20140119,The Guide
+615,20100621,Athena Speaks
+616,20140120,Homeland Illumination
+617,19980516,All News Today
+618,20140119,Central Bulletin
+619,19981115,The Abila Post
+620,20100622,Worldwise
+621,20050408,The Truth
+622,19980517,The Orb
+623,20090620,Kronos Star
+624,20140121,Centrum Sentinel
+625,20140120,Homeland Illumination
+626,20000815,Who What News
+627,19980515,Homeland Illumination
+628,19981116,Daily Pegasus
+629,20110729,Worldwise
+630,19981109,Kronos Star
+631,20090223,News Online Today 
+632,19930120,The Truth
+633,20140120,News Online Today
+634,19951011,News Online Today
+635,20140120,Tethys News
+636,20010318,International News
+637,20140120,Kronos Star
+638,19821002,International Times
+639,19930203,News Online Today
+640,19990704,News Online Today
+641,19930119,The Guide
+642,20140120,Modern Rubicon
+643,20090223,World Source 
+644,20100622,News Desk
+645,20120621,The Truth
+646,20090223,World Journal
+647,19980427,Daily Pegasus
+648,20130224,World Journal
+649,20140120,Centrum Sentinel
+650,19930118,Kronos Star
+651,20130207,International Times
+652,19970424,Athena Speaks
+653,20140120,Tethys News
+654,20140121,The Abila Post
+655,20140120,Centrum Sentinel
+656,20140326,
+657,19930920,News Online Today
+658,20010831,Homeland Illumination
+659,19990705,Worldwise
+660,20140120,The Abila Post
+661,20110516,The Explainer
+662,20120622,The Orb
+663,20000816,The Abila Post
+664,20120621,The Guide
+665,20140120,Centrum Sentinel
+666,19930312,Kronos Star
+667,20090313,The Explainer
+668,20010615,The Truth
+669,20140120,Homeland Illumination
+670,20100622,The Guide
+671,19960708,The Light of Truth
+672,20000601,The Orb
+673,20140120,Central Bulletin
+674,20140120,Kronos Star
+675,20090221,The Light of Truth
+676,20140121,News Online Today
+677,20140120,The Abila Post
+678,20140120,Kronos Star
+679,20140120,The Explainer
+680,20010902,The Wrap
+681,0202,Homeland Illumination
+682,20140120,The Abila Post
+683,20090312,All News Today
+684,20070320,Homeland Illumination
+685,20140120,Tethys News
+686,20030519,The Tulip
+687,20140326,
+688,20020525,News Online Today
+689,20140121,International News
+690,20070411,News Online Today
+691,20100622,The Explainer
+692,20140120,Kronos Star
+693,20140121,Kronos Star
+694,19981114,Who What News
+695,19951011,The Tulip
+696,20111122,The Abila Post
+697,20140120,Homeland Illumination
+698,20120620,All News Today
+699,20140120,The Abila Post
+700,20130622,Daily Pegasus
+701,19991115,World Journal
+702,19990219,News Online Today
+703,19971016,The Explainer
+704,20140119,The Wrap
+705,20110727,The Abila Post
+706,19990220,The Light of Truth
+707,20010318,News Online Today
+708,20140121,Centrum Sentinel
+709,20120823,News Desk
+710,20140120,Kronos Star
+711,20140119,News Online Today
+712,20140120,The Tulip
+713,20140120,The Abila Post
+714,20140119,All News Today
+715,20140120,The Explainer
+716,20090221,Who What News
+717,20140120,Centrum Sentinel
+718,20140120,The Abila Post
+719,20140120,Homeland Illumination
+720,19960709,The Tulip
+721,20140120,News Desk
+722,19940218,News Online Today
+723,19930921,The General Post
+724,19990704,The Truth
+725,19930921,The Guide
+726,20140120,Tethys News
+727,20140121,Modern Rubicon
+728,19821002,World Source 
+729,19950331,The Light of Truth
+730,20050408,Worldwise
+731,19970425,The Explainer
+732,19930919,Who What News
+733,20140120,Homeland Illumination
+734,20000817,Central Bulletin
+735,20090309,The Orb
+736,19930919,The World
+737,20040529,Homeland Illumination
+738,20140121,Homeland Illumination
+739,20120221,World Journal
+740,19990709,The Wrap
+741,19980427,The Orb
+742,20090218,International News
+743,20090307,Homeland Illumination
+744,20140120,Homeland Illumination
+745,20090621,Central Bulletin
+746,20010615,News Online Today
+747,20001003,The Explainer
+748,19930204,Daily Pegasus
+749,20140120,Centrum Sentinel
+750,19940217,The World
+751,19840503,International Times
+752,20140121,Worldwise
+753,20120908,All News Today
+754,20110622,The Guide
+755,19930120,Worldwise
+756,20070410,The Abila Post
+757,20110728,News Desk
+758,19980120,The Guide
+759,20140120,Tethys News
+760,20050407,Daily Pegasus
+761,20140120,Kronos Star
+762,19991114,World Source
+763,20140120,Kronos Star
+764,20140119,The Abila Post
+765,20010318,Worldwise
+766,20100621,News Online Today
+767,20100621,International News
+768,19960314,International News
+769,20130621,The Wrap
+770,20100619,Homeland Illumination
+771,19840504,World Journal
+772,20140120,Modern Rubicon
+773,20120410,Daily Pegasus
+774,20110621,Worldwise
+775,20131022,World Source 
+776,20140120,Kronos Star
+777,20131216,News Online Today
+778,20010901,The Orb
+779,19981115,News Online Today
+780,20010615,Worldwise
+781,20050406,Kronos Star
+782,19970423,The Abila Post
+783,20140120,Modern Rubicon
+784,19840505,The Continent
+785,20120620,News Online Today
+786,20040530,News Online Today
+787,20140121,World Source 
+788,20090313,The Wrap
+789,20000115,News Online Today
+790,20140120,Kronos Star
+791,19980821,Daily Pegasus
+792,20120622,Worldwise
+793,20140121,Centrum Sentinel
+794,20010831,The Truth
+795,19930314,The Truth
+796,19821003,The Continent
+797,20120308,News Online Today
+798,20090313,Central Bulletin
+799,20110622,The Wrap
+800,20131217,Central Bulletin
+801,20090621,News Desk
+802,19940925,The Light of Truth
+803,20140120,The Abila Post
+804,20140120,Homeland Illumination
+805,20140120,The Abila Post
+806,20140120,The Abila Post
+807,20090219,The Abila Post
+808,20090220,Worldwise
+809,20130902,The World
+810,20090516,The Tulip
+811,20140120,Modern Rubicon
+813,20140120,Tethys News
+814,19980517,The Wrap
+815,20090313,Worldwise
+816,20120621,Worldwise
+817,20140120,Centrum Sentinel
+818,20140120,News Desk
+819,20120221,News Online Today 
+820,20090312,Kronos Star
+821,19990704,International News
+822,20140121,The Light of Truth
+823,19981115,The Light of Truth
+824,20140121,The World
+825,19960708,The General Post
+826,20090517,The General Post
+827,20140120,Modern Rubicon
+828,20140120,Centrum Sentinel
+829,20140120,Tethys News
+830,20140120,Modern Rubicon
+831,20140120,Modern Rubicon
+832,20050406,The Orb
+833,20130621,News Online Today
+834,20140120,The Abila Post
+835,19921213,The General Post
+836,20090312,International News
+837,20090219,The Guide
+838,20140120,Tethys News
+839,20111124,News Desk
+840,20121112,The Orb
+841,20140120,Centrum Sentinel
+842,20140120,Homeland Illumination
+843,20121112,The Wrap
+844,20140120,Centrum Sentinel
