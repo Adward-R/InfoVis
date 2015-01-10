@@ -1,11 +1,12 @@
+import os
 def main():
 	toBeDeleted = []
 	for i in range(845):
 		for j in range(i+1,845):
 			if (j in toBeDeleted) or (i in toBeDeleted):
 				continue
-			fr1 = open('./articles/'+str(i)+'.txt','r')
-			fr2 = open('./articles/'+str(j)+'.txt','r')
+			fr1 = open('./trimmed/'+str(i)+'.txt','r')
+			fr2 = open('./trimmed/'+str(j)+'.txt','r')
 			vect = {}
 			for line in fr1:
 				tmpline = line.replace('"',' ').replace("'",' ').replace('-',' ').replace(',',' ').replace('.',' ').replace('(',' ').replace(')',' ').replace('<',' ').replace('>',' ').replace('\n',' ').replace('\t',' ')
@@ -32,9 +33,11 @@ def main():
 				length2 += vect[key][1] * vect[key][1]
 			simi = innerProduct*innerProduct*1.0 / (length1*length2)
 			print str(i)+' '+str(j)+' '+str(simi)
-			if simi>0.8:
+			if simi>0.75:
 				toBeDeleted.append(j)
-	print toBeDeleted
+	#print toBeDeleted
+	for i in toBeDeleted:
+		os.remove('./trimmed/'+str(i)+'.txt')
 	
 if __name__ == '__main__':
 	main()
