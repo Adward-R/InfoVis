@@ -1,1 +1,4 @@
 .DS_Store
+MC1 Data/articles/*.txt
+MC1 Data/trimmed/*.txt
+Dong/Pre-Processing/wordIndex/*
