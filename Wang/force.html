@@ -47,6 +47,22 @@
 </style>
 <body>
 
+<form>
+  <label><input type="radio" name="mode" value="BirthCountry" checked>BirthCountry</label>
+  <label><input type="radio" name="mode" value="CitizenshipBasis">CitizenshipBasis</label>
+  <label><input type="radio" name="mode" value="CitizenshipBasis">CitizenshipBasis</label>
+  <label><input type="radio" name="mode" value="CitizenshipBasis">CitizenshipBasis</label>
+  <label><input type="radio" name="mode" value="CitizenshipBasis">CitizenshipBasis</label>
+  <label><input type="radio" name="mode" value="CitizenshipBasis">CitizenshipBasis</label>
+  <label><input type="radio" name="mode" value="Gender">Gender</label>
+  <label><input type="radio" name="mode" value="CitizenshipCountry">CitizenshipCountry</label>
+  <label><input type="radio" name="mode" value="PassportCountry">PassportCountry</label>
+  <label><input type="radio" name="mode" value="CurrentEmploymentType">CurrentEmploymentType</label>
+  <label><input type="radio" name="mode" value="CurrentEmploymentTitle">CurrentEmploymentTitle</label>
+  <label><input type="radio" name="mode" value="MilitaryServiceBranch">MilitaryServiceBranch</label>
+  <label><input type="radio" name="mode" value="MilitaryDischargeType">MilitaryDischargeType</label>
+</form>
+
 <div id="tooltip" class="hidden">
 <p><strong>Details</strong></p>
 <p>Full Name: <span id="name">100</span></p>
@@ -59,37 +75,58 @@
 
 <script>
 
-var width = 1280
-var height = 720
-var color = d3.scale.category20()
-var force = d3.layout.force()
+var gContent
+var gWidth = 1280
+var gHeight = 720
+var gColor = d3.scale.category20()
+
+var gForce = d3.layout.force()
 .charge(-120)
 .linkDistance(400)
-.size([width, height])
+.size([gWidth, gHeight])
 
-var svg = d3.select("body").append("svg")
-.attr("width", width)
-.attr("height", height)
+var gSvg = d3.select("body").append("svg")
+.attr("width", gWidth)
+.attr("height", gHeight)
 
-d3.json("content.json", function(error, content) {
-  var graph = content['BirthCountry']
-  force.nodes(graph.nodes)
+d3.selectAll("input").on("change", function() {
+  d3.selectAll('circle')
+  .data([])
+  .exit()
+  .remove()
+
+  d3.selectAll('line')
+  .data([])
+  .exit()
+  .remove()
+
+  refresh(this.value)
+})
+
+d3.json('content.json', function(error, content) {
+  gContent = content
+  refresh('BirthCountry')
+})
+
+function refresh(attrname) {
+  var graph = gContent[attrname]
+  gForce.nodes(graph.nodes)
   .links(graph.links)
   .start()
-
-  var link = svg.selectAll(".link")
+  
+  var link = gSvg.selectAll(".link")
   .data(graph.links)
   .enter().append("line")
   .attr("class", "link")
   .style("stroke-width", function(d) { return Math.sqrt(d.value) })
-
-  var node = svg.selectAll(".node")
+  
+  var node = gSvg.selectAll(".node")
   .data(graph.nodes)
   .enter().append("circle")
   .attr("class", "node")
   .attr("r", 5)
-  .style("fill", function(d) { return color(d.group) })
-  .call(force.drag)
+  .style("fill", function(d) { return gColor(d.group) })
+  .call(gForce.drag)
   .on("mouseover", function(d) {
     d3.select("#tooltip")
     .select("#name")
@@ -124,11 +161,11 @@ d3.json("content.json", function(error, content) {
     d3.select("#tooltip")
     .classed("hidden", true)
   })
-
+  
   node.append("title")
   .text(function(d) { return d.name })
-
-  force.on("tick", function() {
+  
+  gForce.on("tick", function() {
     link.attr("x1", function(d) { return d.source.x })
     .attr("y1", function(d) { return d.source.y })
     .attr("x2", function(d) { return d.target.x })
@@ -136,8 +173,8 @@ d3.json("content.json", function(error, content) {
     
     node.attr("cx", function(d) { return d.x })
     .attr("cy", function(d) { return d.y })
-  });
-});
+  })
+}
 
 </script>
 </body>
