@@ -61,9 +61,7 @@
 
 var width = 1280
 var height = 720
-
 var color = d3.scale.category20()
-
 var force = d3.layout.force()
 .charge(-120)
 .linkDistance(400)
@@ -93,10 +91,9 @@ d3.json("content.json", function(error, content) {
   .style("fill", function(d) { return color(d.group) })
   .call(force.drag)
   .on("mouseover", function(d) {
-    d3.select(this).style("fill", "LightGoldenRodYellow")
     d3.select("#tooltip")
     .select("#name")
-    .text(d.FirstName + d.LastName)
+    .text(d.FirstName + ' ' + d.LastName)
     
     d3.select("#tooltip")
     .select("#gender")
@@ -118,17 +115,14 @@ d3.json("content.json", function(error, content) {
     .select("#email")
     .text(d.EmailAddress)
     
-    //var xPosition = scaleh(-30 + parseFloat(d3.select(this).attr("cx")))
-    //var yPosition = scalev(40 + parseFloat(d3.select(this).attr("cy")))
-    
     d3.select("#tooltip")
     .classed("hidden", false)
     .style("left", d.x + "px")
     .style("top", d.y + "px")
   })
   .on("mouseout", function(d) {
-    d3.select("#tooltip").classed("hidden", true)
-    d3.select(this).style("fill", "white")
+    d3.select("#tooltip")
+    .classed("hidden", true)
   })
 
   node.append("title")
