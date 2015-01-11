@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://d3js.org/d3.v3.min.js"></script>
+</head>
+
+<style>
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+#tooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  opacity: 0.8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+</style>
+<body>
+
+<div id="tooltip" class="hidden">
+<p><strong>Details</strong></p>
+<p>Full Name: <span id="name">100</span></p>
+<p>Gender: <span id="gender">100</span></p>
+<p>BirthDate: <span id="birthday"></p>
+<p>Citizenship: <span id="citizenship">100</span></p>
+<p>Passport: <span id="passport">100</span></p>
+<p>Email: <span id="email">100</span></p>
+</div>
+
+<script>
+
+var width = 1280
+var height = 720
+
+var color = d3.scale.category20()
+
+var force = d3.layout.force()
+.charge(-120)
+.linkDistance(400)
+.size([width, height])
+
+var svg = d3.select("body").append("svg")
+.attr("width", width)
+.attr("height", height)
+
+d3.json("content.json", function(error, content) {
+  var graph = content['BirthCountry']
+  force.nodes(graph.nodes)
+  .links(graph.links)
+  .start()
+
+  var link = svg.selectAll(".link")
+  .data(graph.links)
+  .enter().append("line")
+  .attr("class", "link")
+  .style("stroke-width", function(d) { return Math.sqrt(d.value) })
+
+  var node = svg.selectAll(".node")
+  .data(graph.nodes)
+  .enter().append("circle")
+  .attr("class", "node")
+  .attr("r", 5)
+  .style("fill", function(d) { return color(d.group) })
+  .call(force.drag)
+  .on("mouseover", function(d) {
+    d3.select(this).style("fill", "LightGoldenRodYellow")
+    d3.select("#tooltip")
+    .select("#name")
+    .text(d.FirstName + d.LastName)
+    
+    d3.select("#tooltip")
+    .select("#gender")
+    .text(d.Gender)
+    
+    d3.select("#tooltip")
+    .select("#birthday")
+    .text(d.BirthDate)
+    
+    d3.select("#tooltip")
+    .select("#citizenship")
+    .text(d.CitizenshipCountry)
+    
+    d3.select("#tooltip")
+    .select("#passport")
+    .text(d.PassportCountry)
+    
+    d3.select("#tooltip")
+    .select("#email")
+    .text(d.EmailAddress)
+    
+    //var xPosition = scaleh(-30 + parseFloat(d3.select(this).attr("cx")))
+    //var yPosition = scalev(40 + parseFloat(d3.select(this).attr("cy")))
+    
+    d3.select("#tooltip")
+    .classed("hidden", false)
+    .style("left", d.x + "px")
+    .style("top", d.y + "px")
+  })
+  .on("mouseout", function(d) {
+    d3.select("#tooltip").classed("hidden", true)
+    d3.select(this).style("fill", "white")
+  })
+
+  node.append("title")
+  .text(function(d) { return d.name })
+
+  force.on("tick", function() {
+    link.attr("x1", function(d) { return d.source.x })
+    .attr("y1", function(d) { return d.source.y })
+    .attr("x2", function(d) { return d.target.x })
+    .attr("y2", function(d) { return d.target.y })
+    
+    node.attr("cx", function(d) { return d.x })
+    .attr("cy", function(d) { return d.y })
+  });
+});
+
+</script>
+</body>
+</html>
