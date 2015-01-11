@@ -1,0 +1,94 @@
+19/01/2014
+	NOTIME
+		GAStech 高层和政府高层决定在GAStech 举办宴会。
+20/01/2014
+	0926
+		[现在, 大楼]CEO 正在庆祝公司上个月的公共设施建设成就
+		[离开大楼之后]去议会大楼找总统和政府高层
+		[今天晚些时候]举办一个关于公司和政府成功合作的私人庆祝活动。
+	1018
+		fire alarm -- GAStech headquarters
+		Sanjorge or his executive staff -- no sign
+	1025
+		消防队正在搜索大楼火灾警报的原因。暂时没有关于炸弹威胁的确认消息，但是并没有拆弹部队出现。
+		现场没有火光或者烟雾，消防队已经赶到。
+	1028
+		有人怀疑撤离是因为炸弹威胁。
+	1049
+		我们还没有关于GAStech 大楼的确定信息。现场没有烟雾或者火光的迹象，官方也没有发布任何信息。大约十余个佩戴所有装备的消防员已经进入了大楼。
+	1052
+		[correspondent Petrus Gerhard]CEO 几分钟之前到了议会大楼。
+	1123
+		我们的记者Petrus Gerhard 报道，CEO 刚刚进入了国会大厦，然后再也没有出现。本该到达国会大厦的其余GAStech 高层尚没有出现的迹象。
+	1130
+		消防员撤出大楼，但是还没有官方声明。
+	1146
+		隔离带撤掉，消防队撤离。
+	1155
+		[消防局发言人]警报是假警报，雇员已经回到大楼。
+	1157
+		我们的记者Petrus Gerhard 报道，GAStech 的高层还没有出现，CEO 还没有出现在发布会上。
+	1232
+		有猜测表示GAStech 的高层和Kronos 政府官员带着从Kronos 保险箱里取出来的钱坐飞机逃出了国家。
+	1247
+		两辆打开警灯和警笛的警车刚刚抵达了GAStech 大楼。
+	1251
+		警方封锁GAStech 大楼，GAStech 高层和政府高层行踪不确定，没有雇员离开大楼。
+	1356
+		有媒体指出GAStech Tethys 公司已经确认了失踪的GAStech 雇员人数。
+	1410
+		一辆黑色的政府牌照轿车刚刚抵达了GAStech 大楼。汽车停在了大门口，一个穿着西服的男子在警察关上车门之前进入了汽车。关于失踪的雇员尚没有消息。
+	1512
+		两辆分别载有两名警员的警车离开了公司大楼，没有点亮警灯，没有拉开警笛。
+	1515
+		Petrus Gerhard 刚刚和机场负责人联系，确认一架私人飞机在1430 飞离Abila 机场。有报道指出的GAStech 的领导层在这架飞机上暂时无法确定。
+	1522
+		GAStech 的员工被允许离开大楼。一位不愿透露姓名的员工告诉我，一开始所有的员工都认为这是一次消防演练，直到消防队进入大楼检查很长一段时间之后，大家才开始担心是不是真的着火了。当我问她是否知道GAStech 的高层都已经飞离这个国家，她表示不置可否。
+	1538
+		另一位不愿透露姓名的员工告诉我，警方问了很多关于当天早晨哪个员工能够进入大楼的问题。我问他看到了什么，他表示不知道，只是说有很多关于VIP 的讨论，还有早上非常丰盛的早餐。
+	1621
+		另一位离开GAStech 大楼的雇员告诉我，警方询问了每个大楼里面的每个人，她看到了一些不认识的人出现在大楼中，但是没看清楚。对于我提出的是否有绑架的问题，她表示警察告诉他们不能说更多。
+	1744
+		Media reports are coming in that a number of GAStech employees were kidnapped.  
+		*The identity of the passengers on the mystery jet that departed earlier today from the Abila Airport remains unknown.
+	1802
+		我们的记者Petrus Gerhard 报道，第二架私人飞机几小时前刚刚离开了Ablia 机场。飞机上乘客的身份暂时无法确认。
+	1807
+		机场负责人确认，离开机场的两架私人飞机之一搭载了一个私人公司的八名代表，这个公司并非GAStech。机场方面无法确定飞机的出发时间和目的地(592)。
+	1837
+		unconfirmed reports -- the GAStech employees were kidnapped
+	1840
+		我们的记者Petrus Gerhard 报道，机场工作人员透露一架私人飞机早些时候降落在Abila 机场，飞机上的乘客刚刚坐上了一辆豪华轿车。
+	1937
+		Kronos 警方发言人表示，现在还没有迹象表示失踪人士已经离开Kronos 岛。对于我提出的晚宴承办人是否也是获益者的问题，发言人表示警方正在搜索所有可信的信息，现在还没有任何结论可以公布。(When I asked if the caterers were considered persons of interest, the spokesman replied that the department was looking into all credible information and had no comment at this time.)
+	1942
+		[Kronos 警方发言人]大约14 名GAStech 雇员下落不明。
+	2020
+		[不愿透露姓名的政府官员]政府正在努力找到绑架者，有人怀疑是否只是想要找回GAStech 的失踪者，或者有人借别人被绑架获得利益。
+	2232
+		我们的记者Petrus Gerhard 报道，机场工作人员确认刚刚降落的私人飞机来自Tethys。飞机上的乘客直接进入了一辆豪华轿车，经过他的跟踪，豪华轿车直接驶向了Abila 警察局。
+21/01/2014
+	07115
+		对于我们已经知道的信息进行汇总：
+			1, 警方表示昨天早上失踪有14 个GAStech 雇员失踪
+			2, Tethys 的官员，也可能是GAStech 的官员，昨天晚上乘坐一架私人飞机抵达Abila，降落之后直接前往了Abila 警察局
+			3, 昨天上午1015GAStech 大楼出现了火警，但是没有火势被确认，也没有像有的媒体报道的一样出现炸弹。
+			4, 我们还不知道到底是谁失踪了，现在正在等新闻发布会
+	0911
+		在刚刚的新闻发布会上，警方把最终的失踪人数修改到10 人。我们还不知道警方是否已经确认了被绑架的是谁。
+	1016
+		一个GAStech 公司的发言人刚刚表示CEO 并没有失踪，而且已经回到了Tethys。我们能够推测他是昨天离开Abila 机场的私人飞机上乘客的一员。
+	1145
+		我们的记者Petrus Gerhard 刚刚联系到我，说要警示读者即将要有重要的事情公布。
+	1153
+		[correspondent Petrus Gerhard]POK 为了能够绕过政府的阻碍获得交流的机会在公共场合绑架走了他。POK代表已经接见他，接下来他会发布重要消息。
+	1200
+		[correspondent Petrus Gerhard]TO THE PEOPLE OF KRONOS:  NO LONGER WILL WE ACQUIESCE TO THE UNFETTERED KLEPTOCRACY THAT HAS BECOME OUR GOVERNMENT AND TO THE IMPERIALIST ACTIVITIES OF THE FOREIGN CORPORATIONS ON OUR HOMELAND.  WE HAVE TAKEN STEPS TO ENSURE OUR VOICE - YOUR VOICES - ARE HEARD WITHOUT SUPPRESSION OR DISTORTION.  THE INACTIONS AND IGNORANCE OF OUR ELECTED OFFICIALS HAVE FORCED US INTO THESE MEASURES.  YESTERDAY, WE THWARTED A CELEBRATION OF GREED AND CORRUPTION BETWEEN FOREIGN BUSINESSMEN WHO, IN COLLUSION WITH OUR GOVERNMENT OFFICIALS, WORKED TO IMPOVERISH 99% OF THIS GREAT NATION TO THEIR OWN BENEFIT.  IN AN ACT OF DEFIANCE WE APPREHENDED THE ELITISTS WHO HAVE EXPLOITED OUR RESOURCES, KILLED OUR CHILDREN AND RUINED OUR WAY OF LIFE.  WE ARE DEMANDING RECOMPENSE IN THE FORM OF $20 MILLION WHICH WILL BE USED TO ALLEVIATE THE SUFFERING OF THE PEOPLE.  THIS IS THE FIRST STEP TOWARD TAKING OUR COUNTRY BACK.
+		我们不能再向独裁政府和外国帝国主义公司的压迫低头了。我们正在努力争取我们的声音和你们的声音可以在被削弱和扭曲之前发表出来。我们选举出来的非但不作为反而忽略我们诉求的政府逼迫我们采取这种措施。昨天我们摧毁了一个由贪婪、腐化的外国商人和政府官员一起举办的，为了他们自己利益是我们这个伟大的国家99% 的普通人变贫穷的庆祝活动。以示抵抗，我们逮捕了那些掠夺我们资源、杀死我们孩子和毁掉我们生活的“精英阶级”。我们要求两千万美元的赎金来缓解人民所遭受的痛苦。这是我们夺回我们国家的第一步。
+
+
+
+
+
+
+
