@@ -1,3 +1,5 @@
+import os
+import os.path
 def dateConvert(date):
 	fmonth = ""
 	month = date[4:6]
@@ -27,7 +29,7 @@ def dateConvert(date):
 		fmonth = "-Dec-"
 	return date[6:]+fmonth+date[2:4]
 
-def main():
+def deprecated():
 	fr = open('../Pre-Processing/articleTime.csv','r')
 	cnt = 0
 	dict = {}
@@ -48,6 +50,24 @@ def main():
 #		print itm[0]
 		if itm[0][0:4]!='2014':
 			fw.write(dateConvert(itm[0])+'\t'+str(itm[1])+'\n')
+
+def main():
+	freDict = {}
+	for parent,dirs,files in os.walk(r'../divideByDay/'):
+		for d in dirs:
+			path = os.path.join(parent,d)
+			if str(parent)=='../divideByDay/ByYear' or str(d)=='ByYear':
+				continue
+			freDict[str(d)] = 0
+			for _parent,_dirs,_files in os.walk(path):
+				for f in _files:
+					freDict[str(d)] += 1
+	#print freDict
+	freDict = sorted(freDict.iteritems(),key=lambda d:int(d[0]),reverse=True)
+	fw = open('data.tsv','w')
+	fw.write("date\tclose\n")
+	for itm in freDict:
+		fw.write(dateConvert(itm[0])+'\t'+str(itm[1])+'\n')
 
 if __name__=='__main__':
 	main()
