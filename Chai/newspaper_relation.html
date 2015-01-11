@@ -37,8 +37,8 @@ var svg = d3.select("body").append("svg")
         .charge(-400)
         .size([width, height]); 
 
-d3.json("email.json", function(error, graph) {
-
+d3.json("copy.json", function(error, graph) {
+  //console.log(graph);
   force
       .nodes(graph.nodes)
       .links(graph.links)
@@ -48,7 +48,7 @@ d3.json("email.json", function(error, graph) {
       .data(graph.links)
     .enter().append("line")
       .attr("class", "link")
-      .style("stroke-width", function(d) { return Math.sqrt(d.time); })
+      .style("stroke-width", function(d) { return Math.sqrt(d.value); })
       .style("stroke-opacity", 0.5);
 
   var node = svg.selectAll(".node")
@@ -57,7 +57,9 @@ d3.json("email.json", function(error, graph) {
           .attr("class", "node")
           .call(force.drag);
     node.append("circle")
-      .attr("r", 5)
+      .attr("r", function(d) {
+        return d.size;
+      })
       .style("stroke-color", "#000")
       .style("fill", function(d) { return color(d.employment); })
       ;
