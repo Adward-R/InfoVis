@@ -28,7 +28,7 @@ def dateConvert(date):
 	return date[6:]+fmonth+date[2:4]
 
 def main():
-	fr = open('articleTime.csv','r')
+	fr = open('../Pre-Processing/articleTime.csv','r')
 	cnt = 0
 	dict = {}
 	for line in fr:
@@ -43,10 +43,11 @@ def main():
 	fw = open('data.tsv','w')
 	fw.write("date\tclose\n")
 	dict = sorted(dict.iteritems(),key=lambda d:int(d[0]),reverse=True)
-	#print dict.iteritems()
+	#print dict
 	for itm in dict:
-		if key[0]=='2':
-			fw.write(dateConvert(itm)+'\t'+str(itm)+'\n')
+#		print itm[0]
+		if itm[0][0:4]!='2014':
+			fw.write(dateConvert(itm[0])+'\t'+str(itm[1])+'\n')
 
 if __name__=='__main__':
 	main()
