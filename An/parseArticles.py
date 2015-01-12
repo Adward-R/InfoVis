@@ -18,7 +18,7 @@ for ii in range(54):
 #	totalname = totalname[totalname.find("\n") + 1 : ]
 #	
 #	print currName
-	currName = "international times";
+	currName = "isia";
 
 
 	for i in range(844):
@@ -29,7 +29,7 @@ for ii in range(54):
 		f = open("trimmed/" + file, 'r')
 		strInFile = f.read()
 		strinfile = strInFile.lower()
-		if (strinfile.find(currName) > 0):
+		if (strinfile.find(currName) >= 0):
 			currDir = "name/" + currName + "/";
 			if not os.path.exists(currDir):
 				os.mkdir(currDir)
