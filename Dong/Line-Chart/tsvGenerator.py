@@ -65,11 +65,11 @@ def main():
 	fr.close()
 
 	freDict = {}
-	for parent,dirs,files in os.walk(r'../divideByDay/'):
+	for parent,dirs,files in os.walk(r'../divideByDay/ByYear/'):
 		for d in dirs:
 			path = os.path.join(parent,d)
-			if str(parent)=='../divideByDay/ByYear' or str(d)=='ByYear':
-				continue
+			#if str(parent)=='../divideByDay/ByYear' or str(d)=='ByYear':
+			#	continue
 			freDict[str(d)] = {  #copied and copying others 's times
 				#"News Only Today":0,
 				"Homeland Illumination":0,
@@ -117,7 +117,7 @@ def main():
 			continue
 		fw.write("\t"+paper)
 	for itm in freDict:
-		fw.write('\n'+dateConvert(itm[0]))
+		fw.write('\n'+dateConvert(itm[0])+'-Jan-01')
 		for paper in itm[1].keys():
 			if paper=="total":
 				continue

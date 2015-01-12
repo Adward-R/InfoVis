@@ -18,7 +18,7 @@ def dividing():
 		cnt += 1	
 
 	#print hasTheWord
-	for i in hasTheWord:
+	for i in range(845):
 		if not os.path.exists('./ByYear/'+str(articleTime[i])[0:4]):
 			os.mkdir('./ByYear/'+str(articleTime[i])[0:4])
 		shutil.copy('../../MC1 Data/articles/'+str(i)+'.txt','./ByYear/'+str(articleTime[i])[0:4]+'/'+str(i)+'.txt')

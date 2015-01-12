@@ -72,6 +72,7 @@ d3.json("copy.json", function(error, graph) {
   node.on("mouseover", function(d) {
           var linkNodes = [];
           link.style("stroke-opacity", 0.1);
+          
           link.filter(function(t) {
                 if (t.source == d || t.target == d) {
                   var fs = 0,
@@ -91,6 +92,7 @@ d3.json("copy.json", function(error, graph) {
                 return (t.source == d || t.target == d);
               })
               .style("stroke-opacity", 0.5);
+//              .style("stroke-color","#009");
           //console.log(linkNodes);
           node.filter(function(t) {
                 for (var i = 0; i < linkNodes.length; i++) {
